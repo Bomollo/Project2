@@ -1,9 +1,11 @@
 header {
-
+    background-color: #3b3b4f;
+    position: relative;
 }
 
 body {
-
+    background-color: #272734;
+    color: #272734;
 }
 
 #navbar-container {
@@ -23,65 +25,62 @@ video {
 }
 
 .box p {
-
+    margin: 0;
 }
 
 p {
-
+    color: darkgray;
+    text-align: center;
 }
 
 h1 {
-
+    color: darkgray;
+    text-align: center;
 }
 
 h2 {
-
-}
-
-h3 {
-
+    color: darkgray;
+    text-align: center;
+    text-decoration: underline overline;
 }
 
 h4 {
-
+    color: darkgray;
+    text-align: center;
 }
 
 ul {
-
+    color: darkgray;
+    text-align: center;
+    list-style: none inside none;
 }
 
 li {
-
-}
-
-dl {
-
-}
-
-.clean-dl {
-
-}
-
-dt {
-
-}
-
-dd {
-
+    color: darkgray;
+    text-align: center;
 }
 
 #main-navbar ul {
-
+    padding: 0;
+    margin: 0;
+    display: block;
+    list-style-type: none;
+    overflow: hidden;
+    align-content: center;
 }
 
 #main-navbar ul li {
-
+    float: left;
 }
 
 #main-navbar ul li a {
-
+    display: block;
+    padding: 10px 20px;
+    color: darkgray;
+    text-decoration: none;
 }
 
 #main-navbar ul li a:hover {
-
+    background-color: #1b1b25;
+    text-decoration: underline;
 }
