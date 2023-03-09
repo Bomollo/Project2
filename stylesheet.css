@@ -72,7 +72,7 @@ li {
 }
 
 #main-navbar ul li {
-    float: top;
+    align-content: center;
 }
 
 #main-navbar ul li a {
