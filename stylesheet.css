@@ -72,7 +72,7 @@ li {
 }
 
 #main-navbar ul li {
-    float: left;
+    float: top;
 }
 
 #main-navbar ul li a {
@@ -85,4 +85,23 @@ li {
 #main-navbar ul li a:hover {
     background-color: #1b1b25;
     text-decoration: underline;
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.photo-grid img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.2s ease-in-out;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+}
+
+.photo-grid img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 16px rgba(0, 0, 0, .5);
 }
