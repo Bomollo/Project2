@@ -9,19 +9,21 @@ body {
 }
 
 #navbar-container {
-
+    width: 100%;
+    position: relative;
+    text-align: center;
 }
 
 .center {
-
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
 }
 
 video {
-
-}
-
-.blocktext {
-
+    display: block;
+    margin: auto;
 }
 
 .box p {
